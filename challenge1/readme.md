@@ -5,5 +5,8 @@ Santa Claus 🎅 has received a list of magic numbers that represent gifts 🎁,
 
 Your task is to write a function that receives a list of integers (which may include duplicates) and returns a new list without duplicates, sorted in ascending order.
 
+## Example how it works:
+![image of expect work](/challenge1/expect_work1.png)
+
 ## Reference
 [Challenge 1 link to problem](https://adventjs.dev/challenges/2024/1)
