@@ -22,5 +22,3 @@ function createFrame(names) {
     return frameArray.join('\n')
 
 }
-
-console.log(createFrame([]))
