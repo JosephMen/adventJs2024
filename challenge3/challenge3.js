@@ -4,15 +4,25 @@
  */
 function organizeInventory(inventory) {
     // Code here
-    const categoriesArray = inventory.map(toy => [toy.category, {}])
-    const categoriesObj = Object.fromEntries(categoriesArray)
-    inventory.forEach(toy => {
-        let quantity = categoriesObj[toy.category][toy.name]
-        if(quantity) quantity += toy.quantity
-        else quantity = toy.quantity
-        categoriesObj[toy.category][toy.name] = quantity
-    })
-    return categoriesObj
+    // const categoriesArray = inventory.map(toy => [toy.category, {}])
+    // const categoriesObj = Object.fromEntries(categoriesArray)
+    // inventory.forEach(toy => {
+    //     let quantity = categoriesObj[toy.category][toy.name]
+    //     if(quantity) quantity += toy.quantity
+    //     else quantity = toy.quantity
+    //     categoriesObj[toy.category][toy.name] = quantity
+    // })
+    // return categoriesObj
+
+    const categorieObj = {}
+    for (const toy of inventory){
+        const categorie = categorieObj[toy.category]
+        if(!categorie){
+            const {name, quantity} = toy
+            categorieObj[toy.category] = {name: quantity}
+        }
+    }
+    return categorieObj
 }
 
 const inventory = [
@@ -30,5 +40,5 @@ const inventory2 = [
   ]
 
 const inventory3 = []
-const result = organizeInventory(inventory3)
+const result = organizeInventory(inventory2)
 console.log(result)
