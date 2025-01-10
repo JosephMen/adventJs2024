@@ -6,13 +6,11 @@
 function drawRace(indices, length) {
     const shifts = indices.length - 1
     const lanesArray = indices.map((indexReinder, index) => {
-        const indexR = (length + indexReinder)%length
-        const laneArray = new Array(length).fill(`~`)
-        const fill = new Array(shifts - index).fill(' ')
-        if(indexR !== 0) laneArray[indexR] = 'r';
-        laneArray.push(` /${index+1}`)
-        laneArray.unshift(...fill)
-        return laneArray.join('')
+      const indexR = (length + indexReinder)%length
+      const laneArray = new Array(length).fill(`~`)
+      const fill = new Array(shifts - index).fill(' ').join('')
+      if(indexR !== 0) laneArray[indexR] = 'r';
+      return fill + laneArray.join('') + ` /${index+1}`
     })
     return lanesArray.join('\n')
 }

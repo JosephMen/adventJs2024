@@ -22,7 +22,7 @@ Return a string representing the race track:
 
 Examples:
 
-# How it works 
+## How it works 
 ```javascript
 
 drawRace([0, 5, -3], 10)
