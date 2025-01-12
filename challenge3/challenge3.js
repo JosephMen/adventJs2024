@@ -3,7 +3,7 @@
  * @returns {object} The organized inventory
  */
 function organizeInventory(inventory) {
-    // Code here
+    //Code here
     // const categoriesArray = inventory.map(toy => [toy.category, {}])
     // const categoriesObj = Object.fromEntries(categoriesArray)
     // inventory.forEach(toy => {
@@ -14,15 +14,10 @@ function organizeInventory(inventory) {
     // })
     // return categoriesObj
 
-    const categorieObj = {}
-    for (const toy of inventory){
-        const categorie = categorieObj[toy.category]
-        if(!categorie){
-            const {name, quantity} = toy
-            categorieObj[toy.category] = {name: quantity}
-        }
-    }
-    return categorieObj
+    return Object.groupBy(inventory, ({name}) => {
+        return name
+    })
+
 }
 
 const inventory = [
