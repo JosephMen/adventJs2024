@@ -16,7 +16,7 @@ function isRobotBack(moves) {
     L: 'R',
     R: 'L'
   }
-  const movRegister = new Set()
+  const movRegister = []
   const origin = [0,0]
   let lastSimbol = ''
   for(let mov of moves){
@@ -25,7 +25,7 @@ function isRobotBack(moves) {
       continue
     } 
     let movToRegist = mov
-    let vectorToSum = movesVector[mov]
+    let vectorToSum = [...movesVector[mov]]
     if(lastSimbol === '*'){
       vectorToSum[0] *= 2
       vectorToSum[1] *= 2
@@ -36,16 +36,21 @@ function isRobotBack(moves) {
       movToRegist = invertMov
     }
     if(lastSimbol === '?'){
-      vectorToSum = movRegister.has(mov) ? [0,0] : vectorToSum
+      vectorToSum = movRegister.includes(mov) ? [0,0] : vectorToSum
     }
+    console.log({origin, vectorToSum})
     origin[0] += vectorToSum[0]
     origin[1] += vectorToSum[1]
-    movRegister.add(movToRegist)
+    movRegister.push(movToRegist)
     lastSimbol = mov
   }
   return (origin[0] === 0 && origin[1] === 0) || origin
 }
-console.log(isRobotBack('!R'))
+console.log(isRobotBack('*R*R'))
+// console.log(isRobotBack('*R'))
+// console.log(isRobotBack('*L'))
+// console.log(isRobotBack('*U'))
+// console.log(isRobotBack('*D'))
 // console.log(isRobotBack(''))
 // console.log(isRobotBack('R'))     // [1, 0]
 // console.log(isRobotBack('RL'))    // true
@@ -62,5 +67,5 @@ console.log(isRobotBack('!R'))
 // console.log(isRobotBack('*U?U'))  // [0,2]
 // console.log(isRobotBack('U?D?U?')) // true
 
-// console.log(isRobotBack('R!U?U'))
-// console.log(isRobotBack('UU!U?D'))
+// console.log(isRobotBack('R!U?U')) // [1,0]
+// console.log(isRobotBack('UU!U?D')) //[0,1]
