@@ -8,14 +8,9 @@ function minMovesToStables(reindeer, stables) {
   reindeer.sort((a,b) => a - b)
   stables.sort((a,b) => a - b)
 
-  let sumOfMovs = 0
-  for(let i = 0; i < reindeer.length; i++){
-    const reinNum = reindeer[i]
-    const stbNum = stables[i]
-    const distance = reinNum - stbNum
-    sumOfMovs += distance < 0 ? -distance : distance
-  } 
-  return sumOfMovs
+  return reindeer.reduce((prev, curr, ind) => {
+    return prev + Math.abs(curr - stables[ind])
+  },0)
 }
 
 console.log(minMovesToStables([2, 6, 9], [3, 8, 5])) //3
