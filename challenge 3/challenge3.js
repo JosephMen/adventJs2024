@@ -3,12 +3,15 @@
  * @returns {object} The organized inventory
  */
 function organizeInventory(inventory) {
-    const obj = {}
-    for(let {name, quantity, category} of inventory){
-      (obj[category] ??= {})[name] ??= 0
-      obj[category][name] += quantity
-    }
-    return obj
+    // const obj = {}
+    // for(let {name, quantity, category} of inventory){
+    //   ((obj[category] ??= {})[name] ??= 0) + quantity
+    //   // obj[category][name] += quantity
+    // }
+    // return obj
+    const algo = {};
+    ((algo['b'] ??= {})['name'] ??= 1) += 5
+    return algo
 }
 
 const inventory = [
