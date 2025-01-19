@@ -16,3 +16,24 @@ I will use all my knowledge in javascript to create the best code I can imagine.
 
 # Reference 
 The official page:  [AdventJs](https://adventjs.dev/)
+
+## Table of challenges completed
+
+| Number | Name | Stars | Difficulty |
+|--------|------|-------| -----------|
+| [1](/challenge%201/)      |First gift repeated | ⭐⭐⭐⭐⭐| Easy
+| [2](./challenge%202/) | Framing Names | ⭐⭐⭐ | Easy |
+| [3](/challenge%203/) | Organizing the inventory | ⭐⭐⭐⭐ | Easy |
+| [4](/challenge%204/) | Decorating The Xmas Tree | ⭐⭐⭐⭐ | Medium |
+| [5](/challenge%205/) | Shoes Pairing | ⭐⭐⭐⭐ | Easy |
+| [6](/challenge%206/) | Is the gift inside the box ? | ⭐⭐⭐| Medium
+| [7](/challenge%207/) | The Grinch's Attack | ⭐| Medium |
+| [8](/challenge%208/) | The Reno Race | ⭐⭐⭐⭐⭐ | Easy |
+| [9](/challenge%209/) | The Magic Train | ⭐ | Medium | 
+| [10](/challenge%2010/) | The Elfish Assembler | ⭐⭐⭐⭐⭐ | Medium |
+| [11](/challenge%2011/) | Filenames Encoded | ⭐⭐⭐⭐⭐ | Easy |\
+| [12](/challenge%2012/) | How Much Does The Tree Cost ?|⭐⭐⭐⭐⭐ | Easy |
+| [13](/challenge%2013/) | Is The Robot Back ?|⭐⭐⭐⭐⭐ | Hard |
+| [14](/challenge%2014/) | Weaving The Reno|⭐⭐⭐⭐⭐ | Easy |
+| [15](/challenge%2015/) | Drawing Tables |⭐⭐⭐⭐⭐ | Easy |
+| [16](/challenge%2016/) | Cleaning The Snow Path|⭐⭐⭐⭐⭐ | Easy |
