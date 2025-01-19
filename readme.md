@@ -35,5 +35,5 @@ The official page:  [AdventJs](https://adventjs.dev/)
 | [12](/challenge%2012/) | How Much Does The Tree Cost ?|⭐⭐⭐⭐⭐ | Easy |
 | [13](/challenge%2013/) | Is The Robot Back ?|⭐⭐⭐⭐⭐ | Hard |
 | [14](/challenge%2014/) | Weaving The Reno|⭐⭐⭐⭐⭐ | Easy |
-| [15](/challenge%2015/) | Drawing Tables |⭐⭐⭐⭐⭐ | Easy |
-| [16](/challenge%2016/) | Cleaning The Snow Path|⭐⭐⭐⭐⭐ | Easy |
+| [15](/challenge%2015/) | Drawing Tables |⭐⭐⭐⭐ | Easy |
+| [16](/challenge%2016/) | Cleaning The Snow Path|⭐ | Easy |
