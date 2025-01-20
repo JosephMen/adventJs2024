@@ -21,19 +21,20 @@ The official page:  [AdventJs](https://adventjs.dev/)
 
 | Number | Name | Stars | Difficulty |
 |--------|------|-------| -----------|
-| [1](/challenge%201/)      |First gift repeated | ⭐⭐⭐⭐⭐| Easy
-| [2](./challenge%202/) | Framing Names | ⭐⭐⭐ | Easy |
-| [3](/challenge%203/) | Organizing the inventory | ⭐⭐⭐⭐ | Easy |
-| [4](/challenge%204/) | Decorating The Xmas Tree | ⭐⭐⭐⭐ | Medium |
-| [5](/challenge%205/) | Shoes Pairing | ⭐⭐⭐⭐ | Easy |
-| [6](/challenge%206/) | Is the gift inside the box ? | ⭐⭐⭐| Medium
-| [7](/challenge%207/) | The Grinch's Attack | ⭐| Medium |
-| [8](/challenge%208/) | The Reno Race | ⭐⭐⭐⭐⭐ | Easy |
-| [9](/challenge%209/) | The Magic Train | ⭐ | Medium | 
-| [10](/challenge%2010/) | The Elfish Assembler | ⭐⭐⭐⭐⭐ | Medium |
-| [11](/challenge%2011/) | Filenames Encoded | ⭐⭐⭐⭐⭐ | Easy |\
-| [12](/challenge%2012/) | How Much Does The Tree Cost ?|⭐⭐⭐⭐⭐ | Easy |
-| [13](/challenge%2013/) | Is The Robot Back ?|⭐⭐⭐⭐⭐ | Hard |
-| [14](/challenge%2014/) | Weaving The Reno|⭐⭐⭐⭐⭐ | Easy |
-| [15](/challenge%2015/) | Drawing Tables |⭐⭐⭐⭐ | Easy |
-| [16](/challenge%2016/) | Cleaning The Snow Path|⭐ | Easy |
+| [1](/challenge_1/)      |First gift repeated | ⭐⭐⭐⭐⭐| Easy
+| [2](/challenge_2/) | Framing Names | ⭐⭐⭐ | Easy |
+| [3](/challenge_3/) | Organizing the inventory | ⭐⭐⭐⭐ | Easy |
+| [4](/challenge_4/) | Decorating The Xmas Tree | ⭐⭐⭐⭐ | Medium |
+| [5](/challenge_5/) | Shoes Pairing | ⭐⭐⭐⭐ | Easy |
+| [6](/challenge_6/) | Is the gift inside the box ? | ⭐⭐⭐| Medium
+| [7](/challenge_7/) | The Grinch's Attack | ⭐| Medium |
+| [8](/challenge_8/) | The Reno Race | ⭐⭐⭐⭐⭐ | Easy |
+| [9](/challenge_9/) | The Magic Train | ⭐ | Medium | 
+| [10](/challenge_10/) | The Elfish Assembler | ⭐⭐⭐⭐⭐ | Medium |
+| [11](/challenge_11/) | Filenames Encoded | ⭐⭐⭐⭐⭐ | Easy |\
+| [12](/challenge_12/) | How Much Does The Tree Cost ?|⭐⭐⭐⭐⭐ | Easy |
+| [13](/challenge_13/) | Is The Robot Back ?|⭐⭐⭐⭐⭐ | Hard |
+| [14](/challenge_14/) | Weaving The Reno|⭐⭐⭐⭐⭐ | Easy |
+| [15](/challenge_15/) | Drawing Tables |⭐⭐⭐⭐ | Easy |
+| [16](/challenge_16/) | Cleaning The Snow Path|⭐⭐ | Easy |
+| [17](/challenge_17/) | Grinch's Bombs |⭐⭐⭐⭐ | Medium |
