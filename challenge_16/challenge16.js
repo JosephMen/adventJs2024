@@ -3,24 +3,20 @@
  * @returns {string}
  */
 function removeSnow(s) {
-  const hasDouble = (snow) => {
-    let prevLetter = ''
-    let indexOfOcurr = 0
-    for(const currLetter of snow){
-      if (prevLetter === currLetter) return [true, indexOfOcurr - 1]
-      prevLetter = currLetter
-      indexOfOcurr++
-    }
-    return [false]
-  }
-  // Code here
   let word = s
-  let [hasDoub, ind] = hasDouble(word)
-  while(hasDoub){
-    word = word.slice(0, ind) + word.slice(ind + 2);
-    [hasDoub, ind] = hasDouble(word)
+  let i = 0;
+  let prevLetter = ''
+  while(i < word.length){
+    if(word[i] === prevLetter){
+      word = word.slice(0,i - 1) + word.slice(i + 1)
+      i = 0
+      prevLetter = ''
+      continue
+    }
+    prevLetter = word[i]
+    i++
   }
-  return word;
+  return word
 }
 
 console.log(removeSnow('zxxzoz')) // -> "oz"

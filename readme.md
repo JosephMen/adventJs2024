@@ -22,7 +22,7 @@ The official page:  [AdventJs](https://adventjs.dev/)
 | Number | Name | Stars | Difficulty |
 |--------|------|-------| -----------|
 | [1](/challenge_1/)      |First gift repeated | ⭐⭐⭐⭐⭐| Easy
-| [2](/challenge_2/) | Framing Names | ⭐⭐⭐ | Easy |
+| [2](/challenge_2/) | Framing Names | ⭐⭐⭐⭐⭐ | Easy |
 | [3](/challenge_3/) | Organizing the inventory | ⭐⭐⭐⭐ | Easy |
 | [4](/challenge_4/) | Decorating The Xmas Tree | ⭐⭐⭐⭐ | Medium |
 | [5](/challenge_5/) | Shoes Pairing | ⭐⭐⭐⭐ | Easy |
@@ -36,5 +36,6 @@ The official page:  [AdventJs](https://adventjs.dev/)
 | [13](/challenge_13/) | Is The Robot Back ?|⭐⭐⭐⭐⭐ | Hard |
 | [14](/challenge_14/) | Weaving The Reno|⭐⭐⭐⭐⭐ | Easy |
 | [15](/challenge_15/) | Drawing Tables |⭐⭐⭐⭐ | Easy |
-| [16](/challenge_16/) | Cleaning The Snow Path|⭐⭐ | Easy |
+| [16](/challenge_16/) | Cleaning The Snow Path|⭐⭐⭐⭐⭐ | Easy |
 | [17](/challenge_17/) | Grinch's Bombs |⭐⭐⭐⭐ | Medium |
+| [18](/challenge_18/) | Santa's Magic Agenda |⭐⭐⭐⭐ | Medium |
