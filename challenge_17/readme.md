@@ -39,4 +39,4 @@ detectBombs([
 // ]
 ```
 >[!Note]
->Note: Want a hint? You've surely played the Minesweeper game before… 😉
+>Want a hint? You've surely played the Minesweeper game before… 😉

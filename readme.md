@@ -38,4 +38,5 @@ The official page:  [AdventJs](https://adventjs.dev/)
 | [15](/challenge_15/) | Drawing Tables |⭐⭐⭐⭐ | Easy |
 | [16](/challenge_16/) | Cleaning The Snow Path|⭐⭐⭐⭐⭐ | Easy |
 | [17](/challenge_17/) | Grinch's Bombs |⭐⭐⭐⭐ | Medium |
-| [18](/challenge_18/) | Santa's Magic Agenda |⭐⭐⭐⭐ | Medium |
+| [18](/challenge_18/) | Santa's Magic Agenda |⭐⭐⭐⭐⭐ | Hard |
+| [19](/challenge_18/) | Stack Magical Boxes to Deliver Gifts |⭐⭐⭐⭐⭐ | Hard |
