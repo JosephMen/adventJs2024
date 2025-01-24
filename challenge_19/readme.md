@@ -63,8 +63,20 @@ distributeWeight(6)
 //  _
 // |_|___
 // |     |
-// |_____|v
+// |_____|
 
+distributedWeight(10)
+// Returns:
+// _________ 
+//|         |
+//|_________|
+
+distributedWeight(11)
+// Returns:
+// _
+//|_|_______
+//|         |
+//|_________|
 ```
 >[!Note]
 > Be careful with the white spaces! Do not add whitespace to the right of a box unless necessary.
