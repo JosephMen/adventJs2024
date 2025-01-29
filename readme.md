@@ -42,3 +42,4 @@ The official page:  [AdventJs](https://adventjs.dev/)
 | [19](/challenge_19/) | Stack Magical Boxes to Deliver Gifts |⭐⭐⭐⭐⭐ | Hard |
 | [20](/challenge_20/) | Find Missing and Duplicate Gifts |⭐⭐⭐⭐⭐ | Easy |
 | [21](/challenge_21/) | Calculate the Height of the Christmas Tree |⭐⭐⭐⭐ | Easy |
+| [22](/challenge_22/) | Generate Gifts Combinations |⭐⭐⭐⭐ | Medium |
