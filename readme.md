@@ -43,3 +43,4 @@ The official page:  [AdventJs](https://adventjs.dev/)
 | [20](/challenge_20/) | Find Missing and Duplicate Gifts |⭐⭐⭐⭐⭐ | Easy |
 | [21](/challenge_21/) | Calculate the Height of the Christmas Tree |⭐⭐⭐⭐ | Easy |
 | [22](/challenge_22/) | Generate Gifts Combinations |⭐⭐⭐⭐⭐ | Medium |
+| [23](/challenge_23/) | Find the Misssing number |⭐⭐⭐⭐⭐ | Easy |
