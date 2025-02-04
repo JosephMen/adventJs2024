@@ -6,20 +6,14 @@
 function isTreesSynchronized(tree1, tree2) {
   const root = tree1.value
   const checker = (subTree1, subTree2) => {
-    // if(subTree1.value !== subTree2.value) return 1
-    // if(subTree1.left && subTree2.right)
-    //   if(checker(subTree1.left, subTree2.right)) return 1
-      
-    // if(subTree1.right && subTree2.left)
-    //   if(checker(subTree1.right, subTree2.left)) return 1
+
     if(subTree1 ===  subTree2) return 
     if(subTree1.value !== subTree2.value) return 1
     if(checker(subTree1.left, subTree2.right)) return 1
     if(checker(subTree1.right, subTree2.left)) return 1
   }
-  const result = checker(tree1, tree2)
-  if(result) return [false, root]
-  return [true, root]
+  const isMirror = checker(tree1, tree2) !== 1
+  return [isMirror, root]
 }
 
 const tree1 = {

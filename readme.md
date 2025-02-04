@@ -45,3 +45,4 @@ The official page:  [AdventJs](https://adventjs.dev/)
 | [22](/challenge_22/) | Generate Gifts Combinations |⭐⭐⭐⭐⭐ | 🟠 Medium |
 | [23](/challenge_23/) | Find the Misssing number |⭐⭐⭐ | 🟢 Easy |
 | [24](/challenge_24/) | Check if Trees are Magical Mirrors |⭐⭐⭐⭐⭐ | 🟠 Medium |
+| [24](/challenge_25/) | Execute the Magical Language |⭐⭐⭐⭐⭐ | 🟠 Medium |
